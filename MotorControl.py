@@ -245,7 +245,7 @@ class MotorControl:
 
 		self.stpLib.GetCurrentStatus(ct.byref( m1Active ), ct.byref( m2Active ), ct.byref( m1Steps ), ct.byref( m2Steps ), ct.byref( inputs ))
 
-		if(motorName == 2):
+		if(motorName == 1):
 			if(m1Active.value == 1):
 				return True
 			elif(m1Active.value == 0):
