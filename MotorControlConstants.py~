@@ -1,5 +1,5 @@
 #define all motor control constants for stepperbee program
-#Jake Meth - 2013 08 05git@github.com:Jballard419/fluoro_motor.git
+#Jake Meth - 2013 08 05
 
 CM_PER_IN = 2.54 #2.54 cm per inch
 MS_PER_SEC = 1000.0 #1000 milliseconds per second
