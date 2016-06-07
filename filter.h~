@@ -3,7 +3,7 @@
 * file filter.h
 * header to the filter class
 */
-
+#include "stepper_bee_interface.h"
 #ifndef FILTER_NODE_H
 #define FILTER_NODE_H
 

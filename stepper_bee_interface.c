@@ -71,7 +71,7 @@ int r, actual;
 
 if (motor_one_state == 0) motor_one_inverse = 1;
 if (motor_one_state == 1) motor_one_inverse = 0;
-if (motor_two_state == 0) motor_two_inverse = 1;
+if (motor_two_state == 0) motor_two_inversnothing but wrap the C header into an extern "C" declaration. e = 1;
 if (motor_two_state == 1) motor_two_inverse = 0;
 	
 data[1] |= (motor_one_mode << 0);

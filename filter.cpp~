@@ -42,7 +42,7 @@ filter_node::Move_to(int next_node){
 	}
 	time_interval=200; 
 
-	int reply = move_motor(int motor_id,  dir, steps_to, time_interval, 0,0,0 );	 	
+	 	
 
 
 

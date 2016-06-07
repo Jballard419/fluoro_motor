@@ -228,7 +228,7 @@ int move_motor(int motor_id, int direction, int steps, int step_time, int output
 	  }
 	
 	  if (direction == 1){
-	    used_direction = 7;  
+	    used_direction = 12;  
 	  }
 	
 	}
