@@ -28,5 +28,5 @@ extern int set_modes (int motor_one_state,
 		     int motor_one_mode,
 		     int motor_two_mode);
 		 
-		     		 
+     		 
 #endif // stepper_bee_interface_h__

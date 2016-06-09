@@ -29,12 +29,13 @@ int main() {
 	reply = move_motor(1, 0, 200, 1, 0, 0, 0);
 	printf("motor moved %d \n", reply);
 	reply = get_motor_status(&motor_one_status, &motor_two_status, &motor_one_steps, &motor_two_steps) ;
-	
-	while(motor_one_status == 1 || motor_two_status == 1){
+	printf("status %d, MOTOR 2 - steps left = %d \n", motor_two_status, motor_two_steps);
+	while(motor_one_status == 0 || motor_two_status == 0){
 	reply = get_motor_status(&motor_one_status, &motor_two_status, &motor_one_steps, &motor_two_steps) ;
 	printf("status %d, MOTOR 1 - steps left = %d \n", motor_one_status, motor_one_steps);	
 	printf("status %d, MOTOR 2 - steps left = %d \n", motor_two_status, motor_two_steps);	
 	}
+	
 	
 	printf("Press any key to continue, reverse direction 200 step test \n");
 	getchar();
