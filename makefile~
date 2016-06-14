@@ -1,9 +1,9 @@
-
+test_program:
+	g++ -Wall -o test_program test_program.c -L/lib -lstepper_bee_interface
 
 Filter_changer: main.o  filter.o 
 	 g++ -Wall  -g main.o  filter.o    -o Filter_changer  -lstepper_bee_interface
-test_program:
-	g++ -Wall -o test_program test_program.c -L/lib -lstepper_bee_interface
+	
 
 
 libstepper_bee_interface.so:
