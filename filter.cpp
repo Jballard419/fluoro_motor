@@ -68,7 +68,7 @@ bool filter::Move_to(int next_node){
 		j++;
 	}while(motor_one_status == 1 || motor_two_status == 1|| wait<5); //this how we wait for the motor
 	std::cout<<"DONE !! \n";
-	current_node=next_node;
+	current_node=next_node; // so the class knows where it is at 
 	reply=close_controller();  //prevent bad signals being sent to the motor
 
 
